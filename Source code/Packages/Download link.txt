@@ -1,0 +1,3 @@
+wxFormBuilder: https://github.com/wxFormBuilder/wxFormBuilder/releases
+wxpython: https://pypi.org/project/wxPython/#files
+cryptodemo: https://pypi.org/project/cryptodemo/#files

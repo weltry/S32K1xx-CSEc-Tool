@@ -1,0 +1,75 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="7">
+        <Line>"${ProjDirPath}/SDK/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/osif/"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/common"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K142/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K142/startup"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K142_100"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Cpu.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240429" FileType="45637" CompNumb="1" />
+      <File Name="Documentation/S32K142F256.txt" FileDate="2020-06-30, 13:17:20" FileAge="1593494240563" FileType="3072" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737268" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737352" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737152" FileType="1048576" CompNumb="3" />
+      <File Name="Documentation/S32K142F256_Settings.xml" FileDate="2020-06-30, 13:17:20" FileAge="1593494240520" FileType="3072" />
+      <File Name="Generated_Code/csec1.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240334" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737187" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/csec1.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240306" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737180" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737145" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240087" FileType="1048576" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737217" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/S32K142/startup/system_S32K142.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737296" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737092" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737138" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737230" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737172" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/devices/S32K142/include/S32K142.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737338" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/S32K142/startup/system_S32K142.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737304" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737040" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737159" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240383" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/drivers/inc/csec_driver.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240173" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737074" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/flash/flash_driver.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240193" FileType="1048576" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240406" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/csec/csec_driver.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240130" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737068" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737210" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737400" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240095" FileType="1048576" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737223" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737389" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/devices/S32K142/include/S32K142_features.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737323" FileType="1048576" CompNumb="1" />
+      <File Name="Sources/main.c" FileDate="2020-06-19, 09:54:54" FileAge="1592531694661" FileType="128" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737100" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737165" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2020-06-19, 09:55:37" FileAge="1592531737032" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/csec/csec_hw_access.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240157" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737062" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/csec/csec_hw_access.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240139" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737192" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/inc/flash_driver.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240202" FileType="1048576" />
+      <File Name="Generated_Code/Flash1.h" FileDate="2020-06-30, 13:17:20" FileAge="1593494240297" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737260" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/Flash1.c" FileDate="2020-06-30, 13:17:20" FileAge="1593494240288" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2020-06-19, 09:55:37" FileAge="1592531737254" FileType="1048576" CompNumb="1" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>3</CodeGenReference>
+</CodeGenerationInfo>
