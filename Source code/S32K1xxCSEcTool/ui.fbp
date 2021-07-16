@@ -14,7 +14,6 @@
         <property name="file">ui</property>
         <property name="first_id">1000</property>
         <property name="help_provider">none</property>
-        <property name="image_path_wrapper_function_name"></property>
         <property name="indent_with_spaces"></property>
         <property name="internationalize">0</property>
         <property name="name">CSEcToolUI</property>
@@ -26,7 +25,6 @@
         <property name="skip_php_events">1</property>
         <property name="skip_python_events">1</property>
         <property name="ui_table">UI</property>
-        <property name="use_array_enum">0</property>
         <property name="use_enum">0</property>
         <property name="use_microsoft_bom">0</property>
         <object class="Frame" expanded="1">
@@ -910,7 +908,6 @@
                                                 <property name="aui_name"></property>
                                                 <property name="aui_position"></property>
                                                 <property name="aui_row"></property>
-                                                <property name="auth_needed">0</property>
                                                 <property name="best_size"></property>
                                                 <property name="bg"></property>
                                                 <property name="bitmap"></property>
@@ -984,7 +981,6 @@
                                                 <property name="aui_name"></property>
                                                 <property name="aui_position"></property>
                                                 <property name="aui_row"></property>
-                                                <property name="auth_needed">0</property>
                                                 <property name="best_size"></property>
                                                 <property name="bg"></property>
                                                 <property name="bitmap"></property>
@@ -1058,7 +1054,6 @@
                                                 <property name="aui_name"></property>
                                                 <property name="aui_position"></property>
                                                 <property name="aui_row"></property>
-                                                <property name="auth_needed">0</property>
                                                 <property name="best_size"></property>
                                                 <property name="bg"></property>
                                                 <property name="bitmap"></property>
@@ -1132,7 +1127,6 @@
                                                 <property name="aui_name"></property>
                                                 <property name="aui_position"></property>
                                                 <property name="aui_row"></property>
-                                                <property name="auth_needed">0</property>
                                                 <property name="best_size"></property>
                                                 <property name="bg"></property>
                                                 <property name="bitmap"></property>
@@ -1547,7 +1541,6 @@
                                 <property name="aui_name"></property>
                                 <property name="aui_position"></property>
                                 <property name="aui_row"></property>
-                                <property name="auth_needed">0</property>
                                 <property name="best_size"></property>
                                 <property name="bg"></property>
                                 <property name="bitmap"></property>
@@ -2171,7 +2164,6 @@
                                         <property name="aui_name"></property>
                                         <property name="aui_position"></property>
                                         <property name="aui_row"></property>
-                                        <property name="auth_needed">0</property>
                                         <property name="best_size"></property>
                                         <property name="bg"></property>
                                         <property name="bitmap"></property>
@@ -3460,7 +3452,7 @@
                                         <property name="caption"></property>
                                         <property name="caption_visible">1</property>
                                         <property name="center_pane">0</property>
-                                        <property name="choices">&quot;MASTER_ECU_KEY&quot; &quot;BOOT_MAC_KEY&quot; &quot;BOOT_MAC&quot; &quot;USER_KEY_01&quot; &quot;USER_KEY_02&quot; &quot;USER_KEY_03&quot; &quot;USER_KEY_04&quot; &quot;USER_KEY_05&quot; &quot;USER_KEY_06&quot; &quot;USER_KEY_07&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_10&quot; &quot;USER_KEY_11&quot; &quot;USER_KEY_12&quot; &quot;USER_KEY_13&quot; &quot;USER_KEY_14&quot; &quot;USER_KEY_15&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_17&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_09&quot; &quot;USER_KEY_10&quot;</property>
+                                        <property name="choices">&quot;MASTER_ECU_KEY&quot; &quot;BOOT_MAC_KEY&quot; &quot;BOOT_MAC&quot; &quot;USER_KEY_01&quot; &quot;USER_KEY_02&quot; &quot;USER_KEY_03&quot; &quot;USER_KEY_04&quot; &quot;USER_KEY_05&quot; &quot;USER_KEY_06&quot; &quot;USER_KEY_07&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_09&quot; &quot;USER_KEY_10&quot; &quot;USER_KEY_11&quot; &quot;USER_KEY_12&quot; &quot;USER_KEY_13&quot; &quot;USER_KEY_14&quot; &quot;USER_KEY_15&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_17&quot; &quot;USER_KEY_16&quot;</property>
                                         <property name="close_button">1</property>
                                         <property name="context_help"></property>
                                         <property name="context_menu">1</property>
@@ -3722,7 +3714,7 @@
                                         <property name="caption"></property>
                                         <property name="caption_visible">1</property>
                                         <property name="center_pane">0</property>
-                                        <property name="choices">&quot;MASTER_ECU_KEY&quot; &quot;BOOT_MAC_KEY&quot; &quot;BOOT_MAC&quot; &quot;USER_KEY_01&quot; &quot;USER_KEY_02&quot; &quot;USER_KEY_03&quot; &quot;USER_KEY_04&quot; &quot;USER_KEY_05&quot; &quot;USER_KEY_06&quot; &quot;USER_KEY_07&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_10&quot; &quot;USER_KEY_11&quot; &quot;USER_KEY_12&quot; &quot;USER_KEY_13&quot; &quot;USER_KEY_14&quot; &quot;USER_KEY_15&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_17&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_09&quot; &quot;USER_KEY_10&quot;</property>
+                                        <property name="choices">&quot;MASTER_ECU_KEY&quot; &quot;BOOT_MAC_KEY&quot; &quot;BOOT_MAC&quot; &quot;USER_KEY_01&quot; &quot;USER_KEY_02&quot; &quot;USER_KEY_03&quot; &quot;USER_KEY_04&quot; &quot;USER_KEY_05&quot; &quot;USER_KEY_06&quot; &quot;USER_KEY_07&quot; &quot;USER_KEY_08&quot; &quot;USER_KEY_09&quot; &quot;USER_KEY_10&quot; &quot;USER_KEY_11&quot; &quot;USER_KEY_12&quot; &quot;USER_KEY_13&quot; &quot;USER_KEY_14&quot; &quot;USER_KEY_15&quot; &quot;USER_KEY_16&quot; &quot;USER_KEY_17&quot; &quot;USER_KEY_16&quot;</property>
                                         <property name="close_button">1</property>
                                         <property name="context_help"></property>
                                         <property name="context_menu">1</property>
@@ -3781,7 +3773,6 @@
                                         <property name="aui_name"></property>
                                         <property name="aui_position"></property>
                                         <property name="aui_row"></property>
-                                        <property name="auth_needed">0</property>
                                         <property name="best_size"></property>
                                         <property name="bg"></property>
                                         <property name="bitmap"></property>
@@ -17681,7 +17672,6 @@
                         <property name="aui_name"></property>
                         <property name="aui_position"></property>
                         <property name="aui_row"></property>
-                        <property name="auth_needed">0</property>
                         <property name="best_size"></property>
                         <property name="bg"></property>
                         <property name="bitmap"></property>

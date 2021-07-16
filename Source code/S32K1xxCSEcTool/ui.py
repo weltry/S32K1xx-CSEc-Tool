@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ###########################################################################
-## Python code generated with wxFormBuilder (version 3.9.0 Dec  4 2019)
+## Python code generated with wxFormBuilder (version Oct 26 2018)
 ## http://www.wxformbuilder.org/
 ##
 ## PLEASE DO *NOT* EDIT THIS FILE!
@@ -327,7 +327,7 @@ class MainFrame ( wx.Frame ):
 
 		bSizer14.Add( self.CM_AuthKeyID_staticText, 0, wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-		CM_AuthKeyID_choiceChoices = [ u"MASTER_ECU_KEY", u"BOOT_MAC_KEY", u"BOOT_MAC", u"USER_KEY_01", u"USER_KEY_02", u"USER_KEY_03", u"USER_KEY_04", u"USER_KEY_05", u"USER_KEY_06", u"USER_KEY_07", u"USER_KEY_08", u"USER_KEY_08", u"USER_KEY_10", u"USER_KEY_11", u"USER_KEY_12", u"USER_KEY_13", u"USER_KEY_14", u"USER_KEY_15", u"USER_KEY_16", u"USER_KEY_17", u"USER_KEY_16", u"USER_KEY_09", u"USER_KEY_10" ]
+		CM_AuthKeyID_choiceChoices = [ u"MASTER_ECU_KEY", u"BOOT_MAC_KEY", u"BOOT_MAC", u"USER_KEY_01", u"USER_KEY_02", u"USER_KEY_03", u"USER_KEY_04", u"USER_KEY_05", u"USER_KEY_06", u"USER_KEY_07", u"USER_KEY_08", u"USER_KEY_09", u"USER_KEY_10", u"USER_KEY_11", u"USER_KEY_12", u"USER_KEY_13", u"USER_KEY_14", u"USER_KEY_15", u"USER_KEY_16", u"USER_KEY_17", u"USER_KEY_16" ]
 		self.CM_AuthKeyID_choice = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, CM_AuthKeyID_choiceChoices, 0 )
 		self.CM_AuthKeyID_choice.SetSelection( 0 )
 		bSizer14.Add( self.CM_AuthKeyID_choice, 0, wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL|wx.ALL, 5 )
@@ -351,7 +351,7 @@ class MainFrame ( wx.Frame ):
 
 		bSizer15.Add( self.CM_NewKeyID_staticText, 0, wx.ALIGN_CENTER_VERTICAL|wx.ALL, 5 )
 
-		CM_NewKeyID_choiceChoices = [ u"MASTER_ECU_KEY", u"BOOT_MAC_KEY", u"BOOT_MAC", u"USER_KEY_01", u"USER_KEY_02", u"USER_KEY_03", u"USER_KEY_04", u"USER_KEY_05", u"USER_KEY_06", u"USER_KEY_07", u"USER_KEY_08", u"USER_KEY_08", u"USER_KEY_10", u"USER_KEY_11", u"USER_KEY_12", u"USER_KEY_13", u"USER_KEY_14", u"USER_KEY_15", u"USER_KEY_16", u"USER_KEY_17", u"USER_KEY_16", u"USER_KEY_09", u"USER_KEY_10" ]
+		CM_NewKeyID_choiceChoices = [ u"MASTER_ECU_KEY", u"BOOT_MAC_KEY", u"BOOT_MAC", u"USER_KEY_01", u"USER_KEY_02", u"USER_KEY_03", u"USER_KEY_04", u"USER_KEY_05", u"USER_KEY_06", u"USER_KEY_07", u"USER_KEY_08", u"USER_KEY_09", u"USER_KEY_10", u"USER_KEY_11", u"USER_KEY_12", u"USER_KEY_13", u"USER_KEY_14", u"USER_KEY_15", u"USER_KEY_16", u"USER_KEY_17", u"USER_KEY_16" ]
 		self.CM_NewKeyID_choice = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, CM_NewKeyID_choiceChoices, 0 )
 		self.CM_NewKeyID_choice.SetSelection( 0 )
 		bSizer15.Add( self.CM_NewKeyID_choice, 0, wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL|wx.ALL, 5 )
