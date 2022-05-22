@@ -54,8 +54,8 @@ typedef struct
 
 uint8_t    CSEC_KEYS_MEM PartitionCode[16]={/*default setting*/
 											0x00,  //0:MCU partnumber,
-											0x02, //1:EEP size,          0x02:4k eeprom
-											0x04, //2:DEflash partition, 0x04:64K EFlash:0K DFlash
+											0x03, //1:EEP size,          0x02:4k eeprom
+											0x03, //2:DEflash partition, 0x04:64K EFlash:0K DFlash
 											0x03, //3:total key number,  0x03:24Key
 											0x1,  //4:USFE,              0x1: Enable
 											0x01, //5:Flex ram auto load eep data 0x1:Enable must be 0x1 when use csec

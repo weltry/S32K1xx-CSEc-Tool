@@ -2,7 +2,7 @@
 @Author: yunchuan.wang@nxp.com
 @Github: https://github.com/weltry/S32K1xx-CSEc-Tool.git
 @LastEditors: yunchuan.wang@nxp.com
-@LastEditTime: 2020-07-02 20:14:46
+@LastEditTime: 2022-05-22 13:15:05
 '''
 
 # -*- coding: UTF-8 -*-
@@ -397,6 +397,12 @@ class UI_MainFrame(ui.MainFrame):
                              "USER_KEY_03":"06",    "USER_KEY_04":"07",  "USER_KEY_05":"08",  "USER_KEY_06":"09", "USER_KEY_07":"0A",\
                              "USER_KEY_08":"0B",    "USER_KEY_09":"0C",  "USER_KEY_10":"0D",  "USER_KEY_11":"14", "USER_KEY_12":"15",\
                              "USER_KEY_13":"16",    "USER_KEY_14":"17",  "USER_KEY_15":"18",  "USER_KEY_16":"19", "USER_KEY_17":"1A"}
+        CSEcUIDDic = {"S32K116F128":"0000000D1618500938681221231324",\
+                      "S32K118F256":"0000000D1621500561730217201854",\
+                      "S32K142F256":"0000000D1610800746481004071425",\
+                      "S32K144F512":"0000000E4701501071190127174447",\
+                      "S32K146F1M" :"0000000E4965100107180922151202",\
+                      "S32K148F2M" :"0000000e5495602509390821195902"}
         Error = False
         Res = "Error"
         #AuthKey
@@ -425,11 +431,14 @@ class UI_MainFrame(ui.MainFrame):
         Flags = Flags | (int(self.CM_WILD_CARD_checkBox.GetValue())  << 3)
         Flags = Flags | (int(self.CM_VERFIY_ONLY_checkBox87.GetValue()) << 2)
         Flags = "{:0>2x}".format(Flags)
+        #Part num CI_MCU_choice
+        PartNum = self.CI_MCU_choice.GetString(self.CI_MCU_choice.GetCurrentSelection())
+        CSEC_UID = CSEcUIDDic[PartNum]
         if Error == True:
             Res = "Input Error"
         else:
-            Res = utility.CalculateM1ToM5(AuthKey, NewKey, AuthKeyID, NewKeyID, Counter, str(Flags), UID)
-            Res = "M1: "  + Res["M1"] + "\nM2: " + Res["M2"] + "\nM3: " + Res["M3"] \
+            Res = utility.CalculateM1ToM5(AuthKey, NewKey, AuthKeyID, NewKeyID, Counter, str(Flags), UID, CSEC_UID)
+            Res = "Selected MCU: " + PartNum + "\n" + "M1: "  + Res["M1"] + "\nM2: " + Res["M2"] + "\nM3: " + Res["M3"] \
               + "\nM4: "  + Res["M4"] + "\nM5: " + Res["M5"] + "\n"
         self.CM_OutputInf(Res)
 # -------------------End Of Calculate M1~M5 Toll CallBack----------------------------

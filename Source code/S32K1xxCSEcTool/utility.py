@@ -2,7 +2,7 @@
 @Author: yunchuan.wang@nxp.com
 @Github: https://github.com/weltry/S32K1xx-CSEc-Tool.git
 @LastEditors: yunchuan.wang@nxp.com
-@LastEditTime: 2020-07-02 20:15:05
+@LastEditTime: 2022-05-22 13:15:05
 '''
 
 
@@ -28,7 +28,7 @@ def KDF(AuthKey, Constant):
 @param {type} all input is hex string
 @return: 
 '''
-def CalculateM1ToM5(AuthKey, NewKey, AuthKeyID, NewKeyID, Counter, Flags, UID):
+def CalculateM1ToM5(AuthKey, NewKey, AuthKeyID, NewKeyID, Counter, Flags, UID, CSEC_UID):
     MOut = {}
     KEY_UPDATE_ENC_C = "010153484500800000000000000000B0"
     KEY_UPDATE_MAC_C = "010253484500800000000000000000B0"
@@ -48,7 +48,7 @@ def CalculateM1ToM5(AuthKey, NewKey, AuthKeyID, NewKeyID, Counter, Flags, UID):
     #calculate K4* = ENCECB(K3(CID’(28 bits) | “1”(1bit) | “0…0”(99 bits)))
     Tmp_Text = Counter[1:] + "8"
     M4_Star = csec.CSEC_EncryptCBC(Key,str(Tmp_Text),IV="00"*16)
-    MOut["M4"] = UID  + NewKeyID[1:] + AuthKeyID[1:] + M4_Star
+    MOut["M4"] = CSEC_UID  + NewKeyID[1:] + AuthKeyID[1:] + M4_Star
     #M5
     Key = KDF(NewKey,KEY_UPDATE_MAC_C)
     MOut["M5"]  = csec.CSEC_GenerateMAC(Key,MOut["M4"])
